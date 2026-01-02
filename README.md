@@ -27,8 +27,9 @@ Users can continue the conversation or clear the chat anytime.
 
 ## 📸 Project Screenshots
  📌  ![alt text](home.png)
+ 📌  ![alt text](image.png)
  📌  ![alt text](delete.png) 
- 📌 🎥 Demo Video  
-     final chatbot.mp4
+
+ 📌 🎥 Demo Video  - https://drive.google.com/file/d/1j6zA3Dh6JONlyJIiwp1eUQDdTWRVCEgl/view?usp=sharing 
 
 

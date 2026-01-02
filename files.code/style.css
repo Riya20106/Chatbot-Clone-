@@ -1,0 +1,183 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    * {
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    /* header {
+        display: none;
+    } */
+    
+    .greeting h1 {
+        margin-left: 0.5rem;
+        font-size: 4rem;
+        width: fit-content;
+        background-clip: text;
+        background: linear-gradient(to right, #4285f4, #d96570);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .greeting h2 {
+        margin-left: 0.5rem;
+        font-size: 2.5rem;
+        color: #857f7f;
+    }
+    
+    .examples {
+        color: #ffffff;
+        margin-right: 6rem;
+        padding: 1.5rem;
+        width: 15rem;
+        height: 9rem;
+        background-color: #2e2e2e;
+        line-height: 1.5;
+        border-radius: 2rem;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .examples .icon {
+        height: 42px;
+        width: 42px;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #242424;
+        border-radius: 50%;
+    }
+    
+    body {
+        background-color: #000000;
+    }
+    
+    #greeting {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    
+    #outerbox {
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        width: 100%;
+        height: 5rem;
+    }
+    
+    .prompt {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        margin-bottom: 1rem;
+        height: 1.5em;
+        width: 100%;
+        position: fixed;
+        top: 660px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        margin: 0;
+        z-index: 1000;
+        bottom: 0;
+    }
+    
+    input {
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        background: #2e2e2e;
+        color: #ffffff;
+        width: 84%;
+        height: 2.25;
+        padding: 0.8rem;
+        border-radius: 2rem;
+    }
+    
+   #del,#sendd {
+        color: #ffffff;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background: #2e2e2e;
+        cursor: pointer;
+    }
+    
+    #footr {
+        position: fixed;
+        font-size: 0.8rem;
+        bottom: 15px;
+        left: 35%;
+    }
+    
+    .chatlist {
+        max-height: 600px;
+        overflow-y: auto;
+        padding: 10px;
+        padding-bottom: 80px;
+    }
+    
+    p {
+        text-align: center;
+        align-self: center;
+        vertical-align: baseline;
+    }
+    
+    .incoming,
+    .outgoing {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        margin-top: 15px;
+    }
+    
+    .incoming span {
+        margin-left: 1rem;
+        flex-basis: 100%;
+        font-size: 1.75rem;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    
+    .incoming p,
+    .outgoing p {
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 18px;
+        overflow-y: auto;
+    }
+    
+    .loading-bar {
+        /* display: none; */
+        margin-top: 18px;
+        height: 10px;
+        width: 75vw;
+        background: linear-gradient(to right, #4285f4, #000000, #4285f4);
+        margin-left: 15px;
+        animation: animation1 3s linear infinite;
+    }
+    
+    @keyframes animation1 {
+        0% {
+            background-position: -800px 0;
+        }
+        100% {
+            background-position: 800px 0;
+        }
+    } 
+   
